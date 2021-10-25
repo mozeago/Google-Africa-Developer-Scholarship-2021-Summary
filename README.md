@@ -19,8 +19,26 @@ android apps can use the **Google_Accessibility_scanner** to check how best cont
 5. be transparent with user
 6. use support libraries for backward compatibility
 -always use `targetSdkVersion` version that is latest as possible  
--
--
+## The four permission protection levels are:
+##### 1. Normal
+##### 2. dangerous
+##### 3. signature
+##### 4. special permissions
+
+### 1. Normal  
+for accessing device features, auto-granted at install and no user interaction is needed
+### 2. Dangeraous  
+Require user consent and display a notification for user to approve. e.g camera,location
+### 3. signature  
+Theses are custom permission defined by the developer
+Two apps that share data and must have been signed with the same certificate e.g. from the same developer
+they are auto-granted at install time and no user interaction is needed.
+### 4. Special  
+They may change the entire user experience on the device e.g WRITE_SETTINGS which can be used to change settings.  
+
+
+
+
 
 
 
