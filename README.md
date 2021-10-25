@@ -35,6 +35,19 @@ Two apps that share data and must have been signed with the same certificate e.g
 they are auto-granted at install time and no user interaction is needed.
 ### 4. Special  
 They may change the entire user experience on the device e.g WRITE_SETTINGS which can be used to change settings.  
+### Best practices for permission request
+1. Avoid unneccesary permissions---use intents where neccesary
+2. Make permissions accesses explicit
+3. Know permissions needed by your libraries---select libs that need minimum permissions
+4. Dont overwhelm the user with permissions
+5. Be transparent with the user---explain why the permission is needed, provide continuous indications when accessing mic or location to remind user about that
+6. user suport libs for backward compatibility
+
+Check the status of the permission before requesting for it  
+Request for the permission when its really at the functionality it needs to be eg, after clicking camera icon or location icon or call icon  
+
+
+
 
 
 
