@@ -1,5 +1,5 @@
-# Google-Africa-Developer-Scholarship-2021-Summary  
-### Creating Accessibility-friendly Applications  
+### Google-Africa-Developer-Scholarship-2021-Summary  
+#### Creating Accessibility-friendly Applications  
 empasise by using colors, headers, icons. You can use `android:accessibilityHeading="true"` to mark a textView as a header for screen readers.  
 Android uses TalkBack to help the visually impared to enhacne accessibility of apps  
 TouchDelegate can as well be used to in screen readers  
@@ -10,8 +10,8 @@ use contrast ratio of 4.5:1 for all text and 3:1 for large text
 Never use text as images, screen readers will never be able to read them  unless they are given description  
 contrast can be improved more by making the background overlay darker to make the text stand out  
 android apps can use the **Google_Accessibility_scanner** to check how best contrast has been applied  
-### Android Security: Effective Permission Handling  
-#####Permission best practices
+#### Android Security: Effective Permission Handling  
+##### Permission best practices
 1. avoid unnecessary permissions  
 2. Make permissions accesses explicit i.e **very clear** They should be detailed to void doubt or confussion  
 3. Dont overwhel the user
@@ -19,23 +19,23 @@ android apps can use the **Google_Accessibility_scanner** to check how best cont
 5. be transparent with user
 6. use support libraries for backward compatibility
 -always use `targetSdkVersion` version that is latest as possible  
-## The four permission protection levels are:
+#### The four permission protection levels are:
 ##### 1. Normal
 ##### 2. dangerous
 ##### 3. signature
 ##### 4. special permissions
 
-### 1. Normal  
+##### 1. Normal  
 for accessing device features, auto-granted at install and no user interaction is needed
-### 2. Dangeraous  
+##### 2. Dangeraous  
 Require user consent and display a notification for user to approve. e.g camera,location
-### 3. signature  
+##### 3. signature  
 Theses are custom permission defined by the developer
 Two apps that share data and must have been signed with the same certificate e.g. from the same developer
 they are auto-granted at install time and no user interaction is needed.
-### 4. Special  
+##### 4. Special  
 They may change the entire user experience on the device e.g WRITE_SETTINGS which can be used to change settings.  
-### Best practices for permission request
+##### Best practices for permission request
 1. Avoid unneccesary permissions---use intents where neccesary
 2. Make permissions accesses explicit
 3. Know permissions needed by your libraries---select libs that need minimum permissions
