@@ -45,6 +45,10 @@ They may change the entire user experience on the device e.g WRITE_SETTINGS whic
 
 Check the status of the permission before requesting for it  
 Request for the permission when its really at the functionality it needs to be eg, after clicking camera icon or location icon or call icon  
+-Explain a permission when where it is requested is not obvious e.g location in a chat application.  
+-only explain permission if the user had denied the permission earlier on, use `ActivityCompat.shouldShowRequestPermissionRationale`  
+
+
 
 
 
