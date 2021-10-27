@@ -47,6 +47,19 @@ Check the status of the permission before requesting for it
 Request for the permission when its really at the functionality it needs to be eg, after clicking camera icon or location icon or call icon  
 -Explain a permission when where it is requested is not obvious e.g location in a chat application.  
 -only explain permission if the user had denied the permission earlier on, use `ActivityCompat.shouldShowRequestPermissionRationale`  
+##### Broadcast best practices
+1. Use local broadcast manager whenever possible  
+2. protect all broadcasts containing sensitive information  
+3. Limit exposure to incomming broadcasts
+
+#### Android Location-aware Apps with Kotlin  
+#####Location APis
+1. fused location provider
+2. geofencing
+3. Google maps platform: Maps
+4. Google maps platform: Routes
+5. Google maps platform: Places  
+
 
 
 
