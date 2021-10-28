@@ -53,7 +53,7 @@ Request for the permission when its really at the functionality it needs to be e
 3. Limit exposure to incomming broadcasts
 
 #### Android Location-aware Apps with Kotlin  
-#####Location APis
+##### Location APis
 1. fused location provider
 2. geofencing
 3. Google maps platform: Maps
