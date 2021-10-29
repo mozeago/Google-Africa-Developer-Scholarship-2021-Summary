@@ -64,7 +64,7 @@ Request for the permission when its really at the functionality it needs to be e
 it has accuracy options:
 1. high
 2. balanced
-3. low power---celilar
+3. low power---celular
 4. no power---relies on other apps
 
 
