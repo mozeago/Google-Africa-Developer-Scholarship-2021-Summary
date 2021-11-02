@@ -65,7 +65,21 @@ it has accuracy options:
 1. high
 2. balanced
 3. low power---celular
-4. no power---relies on other apps
+4. no power---relies on other apps  
+
+Google requires that we prominently disclose the use of background data
+1. Must be in the app
+2. User must see the disclosure as part of their normal interaction with the app, dont burry it in menus or settings  
+3. can not be only on the Terms of privacy
+4. Can not be bundled with other disclosures
+5. must be optional  
+
+##### Data Requirements  
+1. Must explain what is being collected
+2. Explain what data is used for
+3. How data is shared especially for advertising
+
+
 
 
 
