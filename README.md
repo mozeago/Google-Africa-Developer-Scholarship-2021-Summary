@@ -79,6 +79,7 @@ it has accuracy options:
 2. Explain what data is used for
 3. How data is shared especially for advertising  
 
+Use location emulator applications to simulate GPS apps and turn off wifi for accuracy.  
 
 
 
