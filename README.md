@@ -80,6 +80,7 @@ it has accuracy options:
 3. How data is shared especially for advertising  
 
 Use location emulator applications to simulate GPS apps and turn off wifi for accuracy.  
+Navigation safe Args is used to pass variables between fragments  
 
 
 
