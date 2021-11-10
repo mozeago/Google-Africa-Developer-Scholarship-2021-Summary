@@ -85,4 +85,5 @@ For the paid google maps features/APIs, include as many data per request as poss
 For one to use the **speed limit API** they must have special asset-tracking license and you must confirm that the country does return the speed limit data as there are 20% + of countries in the world returning the speed limit data.  
 #####Routs API considerations  
 1. the request should always come from the server and not the android application.  
-
+##### Places considerations  
+1. we **MUST** display  *powered by google platform* since we are displaying data ouitside of the Google map view.  
