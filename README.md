@@ -87,3 +87,6 @@ For one to use the **speed limit API** they must have special asset-tracking lic
 1. the request should always come from the server and not the android application.  
 ##### Places considerations  
 1. we **MUST** display  *powered by google platform* since we are displaying data ouitside of the Google map view.  
+#### Localization  
+this is the process of adapting your application to locale, market, device.  
+
