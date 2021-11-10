@@ -82,23 +82,4 @@ it has accuracy options:
 Use location emulator applications to simulate GPS apps and turn off wifi for accuracy.  
 Navigation safe Args is used to pass variables between fragments  
 For the paid google maps features/APIs, include as many data per request as possible to keeps costs down.  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+For one to use the **speed limit API** they must have special asset-tracking license and you must confirm that the country does return the speed limit data as there are 20% + of countries in the world returning the speed limit data.  
