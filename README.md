@@ -89,6 +89,22 @@ For one to use the **speed limit API** they must have special asset-tracking lic
 1. we **MUST** display  *powered by google platform* since we are displaying data ouitside of the Google map view.  
 #### Localization  
 this is the process of adapting your application to locale, market, device.  
-![android res folder summary image](android res folder.png) 
+![android res folder summary image](android res folder.png)  
+#### Managing and Binding Data Using the Paging Library  
+The purpose of paging is to improve user experience  
+##### Pageable data must be:  
+1. sorted and structured
+2. able to iterate and read it from any location. will be abstractd by HTTP and ORM  
+3. The batches must be independent in nature and be able to be read in a single request using a key  
+#### Paging Types  
+1. use keys to request continuous data  
+2. (mostly used in HTTP APIs) request data in batches of pages  
+3. fetch data of arbitrary  size from any position  
+##### Pages Data sources can be  
+1. HTTP RESTful APIs
+2. Databases----ROOM  
+3. Custom data sources
+
+5. 
 
 
