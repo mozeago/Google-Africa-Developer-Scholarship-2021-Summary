@@ -89,4 +89,6 @@ For one to use the **speed limit API** they must have special asset-tracking lic
 1. we **MUST** display  *powered by google platform* since we are displaying data ouitside of the Google map view.  
 #### Localization  
 this is the process of adapting your application to locale, market, device.  
+!(https://github.com/mozeago/Google-Africa-Developer-Scholarship-2021-Summary/blob/main/android%20res%20folder.PNG)  
+
 
