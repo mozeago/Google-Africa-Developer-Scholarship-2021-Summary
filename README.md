@@ -103,8 +103,14 @@ The purpose of paging is to improve user experience
 ##### Pages Data sources can be  
 1. HTTP RESTful APIs
 2. Databases----ROOM  
-3. Custom data sources
+3. Custom data sources  
+The paging library has the **Data source**,**pagelist**, **Adapter**  
+#### Types of data sources  
+1. *paged:* equal batches of data, each page is equal except the last page which may be of nay size.
+2. *keyed:* you use the last item in the batch as the key to be used in the next fetch, you may use an array ndex or database index.  
+3. *positional:* you fetch data from any point in the pool of data e.g from index 10-30 of the array.  
 
-5. 
+Google provides supports of generating data sources from your room repositories. When creating a Room **DAO** you can return a `Datasource.Factory` object which paination will be handled automatically.  
+
 
 
