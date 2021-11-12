@@ -83,7 +83,7 @@ Use location emulator applications to simulate GPS apps and turn off wifi for ac
 Navigation safe Args is used to pass variables between fragments  
 For the paid google maps features/APIs, include as many data per request as possible to keeps costs down, cost is per request.  
 For one to use the **speed limit API** they must have special asset-tracking license and you must confirm that the country does return the speed limit data as there are 20% + of countries in the world returning the speed limit data.  
-#####Routs API considerations  
+##### Routs API considerations  
 1. the request should always come from the server and not the android application.  
 ##### Places considerations  
 1. we **MUST** display  *powered by google platform* since we are displaying data ouitside of the Google map view.  
@@ -111,6 +111,7 @@ The paging library has the **Data source**,**pagelist**, **Adapter**
 3. *positional:* you fetch data from any point in the pool of data e.g from index 10-30 of the array.  
 
 Google provides supports of generating data sources from your room repositories. When creating a Room **DAO** you can return a `Datasource.Factory` object which paination will be handled automatically.  
+You will have to create a custom *Datasource* when fetching data from a network,files and APIs where ROOM is not the data source.  
 
 
 
