@@ -112,6 +112,7 @@ The paging library has the **Data source**,**pagelist**, **Adapter**
 
 Google provides supports of generating data sources from your room repositories. When creating a Room **DAO** you can return a `Datasource.Factory` object which paination will be handled automatically.  
 You will have to create a custom *Datasource* when fetching data from a network,files and APIs where ROOM is not the data source.  
+Boundary callbacks are called at the start or end of data  
 
 
 
